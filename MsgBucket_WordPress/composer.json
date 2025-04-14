@@ -1,0 +1,17 @@
+{
+    "name": "messagingapi/messagingsms-order-sms-notification-for-woocommerce",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Woon Kit",
+            "email": "wk_kong@messaging.com.my"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MessagingAPI_WC\\": "src"
+        },
+        "classmap": ["src/", "src/Forms/Handlers"]
+    }
+}
